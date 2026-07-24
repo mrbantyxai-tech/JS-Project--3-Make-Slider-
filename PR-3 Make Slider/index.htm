@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Car Slider</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="slider">
+
+            <div class="slides">
+                <div class="slide">
+                    <img src="https://4kwallpapers.com/images/walls/thumbs_2t/7076.jpeg"
+                        class="hero-image hero-image-1">
+
+                    <div class="overlay"></div>
+
+                    <button onclick="goPrev()" class="arrow ">&#10094;</button>
+                    <button onclick="goNext()" class="arrow right">&#10095;</button>
+
+                    <div class="content">
+
+                        <p class="small-text">THE ULTIMATE DRIVING MACHINE</p>
+
+                        <h1>BMW M4</h1>
+
+                        <h2>COMPETITION</h2>
+
+                        <div class="specs">
+
+                            <span>530 HP</span>
+
+                            <span>TWIN TURBO</span>
+
+                            <span>AWD</span>
+
+                        </div>
+
+                        <button class="explore">Explore →</button>
+
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://4kwallpapers.com/images/walls/thumbs_2t/21924.jpg"
+                        class="hero-image hero-image-2">
+
+                    <div class="overlay"></div>
+
+                    <button onclick="goPrev()" class="arrow ">&#10094;</button>
+                    <button onclick="goNext()" class="arrow right">&#10095;</button>
+
+                    <div class="content">
+
+                        <p class="small-text">THE ULTIMATE DRIVING MACHINE</p>
+
+                        <h1>Ferrari SF90</h1>
+
+                        <h2>Stradale</h2>
+
+                        <div class="specs">
+
+                            <span>986 HP</span>
+
+                            <span>Hybrid V8</span>
+
+                            <span>AWD</span>
+
+                        </div>
+
+                        <button class="explore">Explore →</button>
+                    </div>
+                </div>
+                           <div class="slide">
+                <img src="https://4kwallpapers.com/images/walls/thumbs_2t/24005.jpg" class="hero-image">
+
+                <div class="overlay"></div>
+
+                    <button onclick="goPrev()" class="arrow ">&#10094;</button>
+                    <button onclick="goNext()" class="arrow right">&#10095;</button>
+
+                <div class="content">
+
+                    <p class="small-text">THE ULTIMATE DRIVING MACHINE</p>
+
+                    <h1>Toyota Supra</h1>
+
+                    <h2>MK5</h2>
+
+                    <div class="specs">
+
+                        <span>382 HP</span>
+
+                        <span>3.0 Turbo</span>
+
+                        <span>RWD</span>
+
+                    </div>
+
+                    <button class="explore">Explore →</button>
+
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://4kwallpapers.com/images/walls/thumbs_2t/23765.jpg" class="hero-image hero-image-1">
+
+                <div class="overlay"></div>
+
+                    <button onclick="goPrev()" class="arrow ">&#10094;</button>
+                    <button onclick="goNext()" class="arrow right">&#10095;</button>
+
+                <div class="content">
+
+                    <p class="small-text">THE ULTIMATE DRIVING MACHINE</p>
+
+                    <h1>Ford Mustang</h1>
+
+                    <h2>GT</h2>
+
+                    <div class="specs">
+
+                        <span>486 HP</span>
+
+                        <span>5.0L V8</span>
+
+                        <span>RWD</span>
+
+                    </div>
+
+                    <button class="explore">Explore →</button>
+
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://4kwallpapers.com/images/walls/thumbs_2t/18389.jpg" class="hero-image hero-image-5">
+
+                <div class="overlay"></div>
+
+                    <button onclick="goPrev()" class="arrow ">&#10094;</button>
+                    <button onclick="goNext()" class="arrow right">&#10095;</button>
+
+                <div class="content">
+
+                    <p class="small-text">THE ULTIMATE DRIVING MACHINE</p>
+
+                    <h1>Lamborghini Huracán</h1>
+
+                    <h2>EVO</h2>
+
+                    <div class="specs">
+
+                        <span>631 HP</span>
+
+                        <span>5.2L V10</span>
+
+                        <span>AWD</span>
+
+                    </div>
+
+                    <button class="explore">Explore →</button>
+
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="dots">
+
+            <span class="active"></span>
+
+            <span></span>
+
+            <span></span>
+
+            <span></span>
+
+            <span></span>
+
+        </div>
+
+        <div class="cars">
+
+            <div class="card active">
+
+                <img src="https://4kwallpapers.com/images/walls/thumbs_2t/7076.jpeg">
+
+                <h3>BMW M4</h3>
+
+                <p>Competition</p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="https://4kwallpapers.com/images/walls/thumbs_2t/21924.jpg">
+
+                <h3>Ferrari SF90</h3>
+
+                <p>Stradale</p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="https://4kwallpapers.com/images/walls/thumbs_2t/24005.jpg">
+
+                <h3>Toyota Supra</h3>
+
+                <p>MK5</p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="https://4kwallpapers.com/images/walls/thumbs_2t/23765.jpg">
+
+                <h3>Mustang GT</h3>
+
+                <p>V8</p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="https://4kwallpapers.com/images/walls/thumbs_2t/18389.jpg">
+
+                <h3>Lamborghini</h3>
+
+                <p>Huracan</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
