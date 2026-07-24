@@ -50,7 +50,7 @@ No installation, build tools, or dependencies are required.
 
 📸 Preview
 
-Replace this section with your project screenshot.
+<img width="1920" height="1080" alt="Screenshot 2026-07-24 213921" src="https://github.com/user-attachments/assets/9e8a16b8-6ae0-4bff-aa23-6bce052de1f1" />
 
 preview.png
 📚 Concepts Practiced
@@ -72,7 +72,7 @@ Dynamic Class Management
 🌙 Multiple UI Themes
 👨‍💻 Author
 
-Mayur Rakholiya
+Banty Prajapati
 
 GitHub: https://github.com/mrbantyxai-tech
 LinkedIn: https://www.linkedin.com/in/khemraj-prajapati-b2848a361/
